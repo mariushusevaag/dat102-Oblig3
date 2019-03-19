@@ -18,8 +18,8 @@ public class Main {
 		
 		//Oppgave 1c)
 		System.out.println("\nOppgave 1c)\n");
-		System.out.println(String.format("24 ringer: %8s µs", Metoder.hanoiTid(24) / 1000));
-		System.out.println(String.format("28 ringer: %8s µs", Metoder.hanoiTid(28) / 1000));
+		System.out.println(String.format("16 ringer: %8s µs", Metoder.hanoiTid(16) / 1000));
 		System.out.println(String.format("32 ringer: %8s µs", Metoder.hanoiTid(32) / 1000));
+		//System.out.println(String.format("32 ringer: %8s µs", Metoder.hanoiTid(32) / 1000));
 	}
 }

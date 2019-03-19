@@ -23,10 +23,11 @@ public class KlientDobbelKjedetOrdnetListeM {
 		String element = new String("Kalle");
 
 		boolean funnet = liste.fins(element);
-		if (funnet)
+		if (funnet) {
 			System.out.println("\nElementet " + element + " fins");
-		else
+		} else {
 			System.out.println("\nElementet " + element + " fins ikke");
+		}
 
 		// Fjerner noen fra listen og skriver ut igjen
 
