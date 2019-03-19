@@ -10,7 +10,7 @@ public class KlientDobbelKjedetOrdnetListeM {
 
 		DobbelKjedetOrdnetListeM<String> liste = new DobbelKjedetOrdnetListeM(new String("AAA"), new String("zzz"));
 
-		// Legger data inn i listen
+		// Legger data inn i listen 
 		for (int i = 0; i < ord.length; i++)
 			liste.leggTil(ord[i]);
 
