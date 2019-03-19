@@ -8,7 +8,6 @@ public class KlientDobbelKjedetOrdnetListeM {
 
 		String ord[] = { "o", "a", "s", "m", "e", "k", "c" };
 
-		@SuppressWarnings({ "unchecked", "rawtypes" })
 		DobbelKjedetOrdnetListeM<String> liste = new DobbelKjedetOrdnetListeM(new String("AAA"), new String("zzz"));
 
 		// Legger data inn i listen
