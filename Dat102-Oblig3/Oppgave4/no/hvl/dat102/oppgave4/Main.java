@@ -23,7 +23,7 @@ public class Main {
 	public static void main(String[] args) {
 		Table<Integer> t = new Table<Integer>(150000);
 		Random rand = new Random(1024);
-		int n = 16000;
+		int n = 8000;
 
 		// Legger til elementer i tabell for sortering
 		for (int i = 0; i < n; i++) {
